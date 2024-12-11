@@ -7,6 +7,11 @@
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 // The algorithm is based on repetitive addition.
 
+// This program only needs to handle arguments that satisfy
+// R0 >= 0, R1 >= 0, and R0*R1 < 32768.
+
+// Put your code here.
+
 @sum
 M=0   //sum=0
 @i
@@ -30,4 +35,4 @@ M=M+1  //i=i+1
 @sum
 D=M
 @R2
-M=D
+M=D+
